@@ -873,16 +873,6 @@ escape 1;
 }
 
 Test { [[
-native _void;
-var _void&& p = _;
-var int x = p:get();
-escape 1;
-]],
-    wrn = false,
-    cc = '3:25: error: dereferencing ‘void *’ pointer',
-}
-
-Test { [[
 native _t;
 native/pre do
     typedef int t;
