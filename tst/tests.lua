@@ -878,7 +878,7 @@ var _void&& p = _;
 var int x = p:get();
 escape 1;
 ]],
-    wrn = true,
+    wrn = false,
     cc = '3:25: error: dereferencing ‘void *’ pointer',
 }
 
